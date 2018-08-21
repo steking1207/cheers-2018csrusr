@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  overflow-x: hidden; }
+
+.kv {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  padding: 0 1rem;
+  width: 100%;
+  text-align: center; }
+
+.kv-tree {
+  position: absolute;
+  top: -90px;
+  z-index: 2; }
+@media (max-width: 991.98px) {
+  .kv-tree {
+    top: -60px; } }
+
+.kv-globe {
+  -moz-animation: spin 15s linear infinite;
+  -webkit-animation: spin 15s linear infinite;
+  animation: spin 15s linear infinite; }
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg); } }
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); } }
