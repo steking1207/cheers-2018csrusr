@@ -40,6 +40,8 @@ a:hover {
   position: relative;
   z-index: 1;
   background-color: #f6e6cd; }
+#footer .d-inline-block img {
+  height: 25px; }
 
 .font-small {
   font-size: 0.8rem; }
