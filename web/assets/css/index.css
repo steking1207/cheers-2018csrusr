@@ -17,7 +17,10 @@ html, body {
 .kv-tree {
   position: absolute;
   top: -90px;
-  z-index: 2; }
+  z-index: 2;
+  left: 0;
+  right: 0;
+  margin: 0 auto; }
 @media (max-width: 991.98px) {
   .kv-tree {
     top: -60px; } }
@@ -27,6 +30,12 @@ html, body {
   -webkit-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite; }
 
+@media only screen and (max-height: 800px) {
+  .kv-globe {
+    max-height: 500px; }
+
+  .kv-tree {
+    max-height: 250px; } }
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg); } }
