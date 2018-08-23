@@ -34,12 +34,12 @@ html, body {
   -webkit-animation: spin 15s linear infinite;
   animation: spin 15s linear infinite; }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 768px) {
   .kv-globe {
-    max-height: 500px; }
+    max-height: 450px; }
 
   .kv-tree {
-    max-height: 250px; } }
+    max-height: 220px; } }
 @-moz-keyframes spin {
   100% {
     -moz-transform: rotate(360deg); } }
