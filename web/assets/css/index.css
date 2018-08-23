@@ -2,6 +2,10 @@ html, body {
   height: 100%;
   overflow-x: hidden; }
 
+.title {
+  position: relative;
+  z-index: 5; }
+
 .kv {
   position: absolute;
   top: 50%;
